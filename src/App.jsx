@@ -3,7 +3,7 @@ import './index.css';
 
 function App() {
   const [tickerText, setTickerText] = useState('');
-  const [backgroundColor, setBackgroundColor] = useState('#f7c53a'); // Initial background color
+  const [backgroundColor, setBackgroundColor] = useState('#f7c53a');
   const [inputText, setInputText] = useState('');
 
   useEffect(() => {
