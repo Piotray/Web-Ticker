@@ -7,10 +7,8 @@ function App() {
   const [inputText, setInputText] = useState('');
 
   useEffect(() => {
-    // Get the ticker element
     const ticker = document.querySelector('.ticker');
 
-    // Set the text content as a data attribute for the before pseudo-element
     ticker.setAttribute('data-text', ticker.textContent);
   }, [tickerText]);
 
