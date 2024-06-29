@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './index.css'; 
 
 function App() {
@@ -6,22 +6,15 @@ function App() {
   const [color, setColor] = useState(''); 
   const [inputText, setInputText] = useState('');
 
-  useEffect(() => {
-    const ticker = document.querySelector('.ticker');
-
-    ticker.setAttribute('data-text', ticker.textContent);
-  }, [tickerText]);
+  const handleChange = (e) => {
+    const newText = e.target.value;
+    setInputText(newText);
+    setTickerText(newText); 
+  };
 
   const showColor = (e) => {
     const newColor = e.target.value;
     setColor(newColor);
-
-  };
-
-  const handleChange = (e) => {
-    const newText = e.target.value;
-    setInputText(newText);
-    setTickerText(newText);
   };
 
   return (
@@ -48,7 +41,7 @@ function App() {
         />
       </div>
       <div className="ticker-container">
-        <div className="ticker" data-text={tickerText}>
+         <div className="ticker" data-text={tickerText}>
           <span>{tickerText}</span>
         </div>
       </div>
