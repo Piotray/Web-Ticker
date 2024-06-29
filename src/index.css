@@ -1,5 +1,11 @@
 body {
-  background-color:#f7c22e;
+  background-color: #f7c22e;
+  margin: 0;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
 }
 
 .color-container {
