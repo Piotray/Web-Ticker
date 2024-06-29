@@ -3,7 +3,7 @@ import './index.css';
 
 function App() {
   const [tickerText, setTickerText] = useState('');
-  const [backgroundColor, setBackgroundColor] = useState('#f7c53a');
+  const [color, setColor] = useState(''); 
   const [inputText, setInputText] = useState('');
 
   useEffect(() => {
@@ -12,14 +12,10 @@ function App() {
     ticker.setAttribute('data-text', ticker.textContent);
   }, [tickerText]);
 
-  const handleTextChange = (text) => {
-    setTickerText(text);
-  };
-
-  const handleColorChange = (e) => {
+  const showColor = (e) => {
     const newColor = e.target.value;
-    setBackgroundColor(newColor);
-    document.body.style.backgroundColor = newColor; 
+    setColor(newColor);
+
   };
 
   const handleChange = (e) => {
@@ -29,15 +25,15 @@ function App() {
   };
 
   return (
-    <div className="app">
+    <div className="app" style={{ backgroundColor: color }}>
       <div className="background-image"></div> 
       <div className="color-container">
         <label htmlFor="color">bckgrnd: </label> 
         <input
           type="color"
           id="color"
-          value={backgroundColor}
-          onChange={handleColorChange}
+          value={color}
+          onChange={showColor}
           className='color-box'
         />
       </div>
