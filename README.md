@@ -7,7 +7,7 @@ Background Color Picker: Choose your preferred background color using a color pi
 Moving Popcorn Background: Enjoy a dynamic popcorn background that adds a fun element to your page. Image can be replaced with other one. 
 
 Screenshots
-![WebTicker Screenshot](assets/screenshot.png)
+![WebTicker Screenshot](public/screenshot.png)
 
 ## Installation
 
