@@ -7,29 +7,33 @@ Background Color Picker: Choose your preferred background color using a color pi
 Moving Popcorn Background: Enjoy a dynamic popcorn background that adds a fun element to your page. Image can be replaced with other one. 
 
 Screenshots
+![WebTicker Screenshot](assets/screenshot.png)
 
-Installation
-Clone the repository:
+## Installation
 
-sh
-Copy code
-git clone https://github.com/yourusername/webticker.git
-cd webticker
-Install the dependencies:
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/webticker.git
+    cd webticker
+    ```
 
-sh
-Copy code
-npm install
-Start the development server:
+2. Install the dependencies:
+    ```sh
+    npm install
+    ```
 
-sh
-Copy code
-npm start
-Usage
-Open your web browser and navigate to http://localhost:3000.
-Type your desired text in the input field.
-Select the background color using the color picker.
-Watch your text move across the screen with a dynamic popcorn background!
+3. Start the development server:
+    ```sh
+    npm start
+    ```
+
+## Usage
+
+1. Open your web browser and navigate to `http://localhost:3000`.
+2. Type your desired text in the input field.
+3. Select the background color using the color picker.
+
+
 Contributing
 Contributions are welcome! Please follow these steps to contribute:
 
