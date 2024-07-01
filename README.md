@@ -24,7 +24,7 @@ Moving Popcorn Background: Enjoy a dynamic popcorn background that adds a fun el
 
 3. Start the development server:
     ```sh
-    npm start
+    npm run dev
     ```
 
 ## Usage
