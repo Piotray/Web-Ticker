@@ -6,7 +6,7 @@ Live Text Input: Type your custom text in the input field to see it instantly re
 Background Color Picker: Choose your preferred background color using a color picker.
 Moving Popcorn Background: Enjoy a dynamic popcorn background that adds a fun element to your page. The image can be replaced (by replacing the file background-image0.png in the public folder).
 
-Screenshots
+## Screenshots
 ![WebTicker Screenshot](public/screenshot.png)
 
 ## Installation
