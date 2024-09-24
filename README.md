@@ -13,7 +13,7 @@ Moving Popcorn Background: Enjoy a dynamic popcorn background that adds a fun el
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/webticker.git
+    git clone https://github.com/Piotray/Web-Ticker
     cd webticker
     ```
 
